@@ -1,5 +1,6 @@
 import React from 'react';
 import './App.css';
+
 import Chatbox from './components/Chatbox';
 
 class App extends React.Component {
@@ -29,7 +30,7 @@ class App extends React.Component {
       <h1> Chat app</h1>
       <Chatbox items={this.state.items} />
       <form className="message-form" onSubmit={this.onSubmit}>
-        <input value={this.state.term} onChange={this.onChange} />
+        <textarea value={this.state.term} onChange={this.onChange} />
         <button>Send</button>
       </form>
     </div>

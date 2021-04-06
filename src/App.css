@@ -36,3 +36,58 @@
     transform: rotate(360deg);
   }
 }
+
+/*My style*/
+
+.main-nav{
+  text-align: center;
+  margin-bottom: 50px;
+  padding: 0 25px;
+}
+a{
+  color: #3d8fac;
+  text-decoration: none;
+  transition: all .25s ease;
+}
+a:hover{
+  color: #ffffff;
+  background-color: #282c34;
+  text-decoration: underline;
+}
+.main-nav a {
+  display: inline-block;
+  padding: 25px;
+}
+
+h1{
+  color: #282c34;
+}
+textarea {
+height: 10vh;
+padding: 50px 0;
+text-align: center;
+font-size: 1.4rem;
+
+}
+form{
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  margin: auto;
+
+}
+button{
+  height: 40px;
+  background-color: rgb(0, 0, 0);
+  color: white;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 5px;
+}
+button:active{
+  position: relative;
+top: 2px;
+}
+button:hover{
+  font-size: 1.1rem;
+}
