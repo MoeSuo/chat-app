@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-
+import Logo from './Logo.svg';
 import Chatbox from './components/Chatbox';
 
 class App extends React.Component {
@@ -27,7 +27,8 @@ class App extends React.Component {
     render(){
   return (
     <div className="App">
-      <h1> Chat app</h1>
+      <img src={Logo} />
+      <h1> Let's chat</h1>
       <Chatbox items={this.state.items} />
       <form className="message-form" onSubmit={this.onSubmit}>
         <textarea value={this.state.term} onChange={this.onChange} />

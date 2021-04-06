@@ -1,9 +1,15 @@
 
-ul{
-    color: blue;
+li{
+    color: rgb(255, 255, 255);
     max-width: 50vw;
     text-align: center;
     margin: 30px auto;
     list-style-type: none;
     overflow-wrap: break-word;
+    background-color: #2e66ff;
+    border-radius: 14px;
+    padding: 10px ;
+}
+ul {
+    padding:  0px;
 }
